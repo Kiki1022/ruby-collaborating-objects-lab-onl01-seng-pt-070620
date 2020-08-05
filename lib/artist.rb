@@ -10,7 +10,7 @@ end
   
   def self.all
     @@all
-  defined?
+  end
   
   
   
