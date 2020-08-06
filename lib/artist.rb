@@ -34,4 +34,9 @@ end
   def self.find(name)
     self.all.find{|a| a.name == name}
   end
+  
+  def print_songs
+   songs.each {|s| puts s.name}
+  end
+  
 end
