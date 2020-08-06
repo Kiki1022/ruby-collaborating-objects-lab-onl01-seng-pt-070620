@@ -12,7 +12,7 @@ class Song
     @@all
   end
   
-  def self.new_by_filename(n)
+  def self.new_by_filename(filename)
    
   end
   
