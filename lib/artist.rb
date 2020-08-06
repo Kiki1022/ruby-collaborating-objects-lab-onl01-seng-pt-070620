@@ -31,8 +31,7 @@ end
   
   end
   
-  def self.find
-  
-  
+  def self.find(name)
+    self.all.find{|a| a.name == name}
   end
 end
