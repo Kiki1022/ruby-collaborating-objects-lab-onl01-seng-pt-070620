@@ -1,12 +1,15 @@
 class MP3Importer
  
- attr_reader :path 
+  attr_reader :path 
  
- def initialize(path)
+  def initialize(path)
    @path = path
- end
+  end
   
+  def files
+    @files ||= Dir.glob("#{path}/*.mp3").collect{|n| n.gsub
   
+  end
   
   
 end
